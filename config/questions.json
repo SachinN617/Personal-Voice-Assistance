@@ -1,0 +1,27 @@
+[
+  {
+    "id": "cbbt",
+    "question": "What does CBBT mean?",
+    "answer": "Cupboard, Bench, Bathroom, Table"
+  },
+  {
+    "id": "cupboard",
+    "question": "Where is the cupboard?",
+    "answer": "The cupboard is below the clock sound"
+  },
+  {
+    "id": "bench",
+    "question": "Where is the bench?",
+    "answer": "The bench is next to the cupboard"
+  },
+  {
+    "id": "bathroom",
+    "question": "Where is the bathroom?",
+    "answer": "The bathroom comes after the bench"
+  },
+  {
+    "id": "table",
+    "question": "Where is the table?",
+    "answer": "The table comes after the bathroom"
+  }
+]
