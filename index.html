@@ -2,14 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Voice Memory Assistant</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <h1>🎙️ Voice Memory Assistant</h1>
+  <div class="container">
+    <h1>🎙️ Voice Memory Assistant</h1>
 
-  <button id="startBtn">Start Assistant</button>
-  <p id="status">Idle</p>
+    <div class="button-group">
+      <button id="startBtn" class="btn btn-start">Start Assistant</button>
+      <button id="stopBtn" class="btn btn-stop" disabled>Stop Assistant</button>
+    </div>
+
+    <div class="status-container">
+      <p id="status">Idle</p>
+      <p id="timer"></p>
+    </div>
+
+    <div class="info-container">
+      <p id="currentQuestion"></p>
+      <p id="userResponse"></p>
+    </div>
+  </div>
 
   <script src="js/config.js"></script>
   <script src="js/speech.js"></script>
